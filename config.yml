@@ -1,0 +1,30 @@
+baseURL: ""
+languageCode: en-us
+title: Furkan Ercevik
+theme: PaperMod
+
+params:
+  
+  cover:
+    linkFullimages: true
+
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 5
+    - identifier: projects
+      name: Projects
+      url: /projects
+      weight: 10
+    - identifier: resume
+      name: Resume
+      url: /resume
+      weight: 20
+    - identifier: tags
+      name: Tags
+      url: /tags
+      weight: 30
