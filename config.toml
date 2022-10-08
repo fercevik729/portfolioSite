@@ -1,0 +1,4 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = "Furkan's Portfolio"
+theme = "hugo-theme-monochrome"
