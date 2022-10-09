@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Pages on Furkan Ercevik</title>
+    <link>/pages/</link>
+    <description>Recent content in Pages on Furkan Ercevik</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/</guid>
+      <description>Hi my name is Furkan Ercevik, and I am a 2nd year Computer Science B.S. student at UCSC. I am currently taking CSE 101 (Data Structures and Algorithms) and CSE 120 (Computer Architecture).
+I am experienced in Golang, Python, C/C++, JAVA, Docker, CI/CD, HTML/CSS, gRPC, REST, AWS EC2, ECR, and CloudFormation. I have also worked with the Gorilla Mux and GORM frameworks in Golang, and Flask and Pycord in Python.</description>
+    </item>
+    
+  </channel>
+</rss>

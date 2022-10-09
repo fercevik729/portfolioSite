@@ -1,19 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Furkan&#39;s Portfolio</title>
-    <link>http://example.org/</link>
-    <description>Recent content on Furkan&#39;s Portfolio</description>
+    <title>Furkan Ercevik</title>
+    <link>/</link>
+    <description>Recent content on Furkan Ercevik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 Oct 2022 23:22:44 -0700</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Oct 2022 12:57:06 -0700</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Bio</title>
-      <link>http://example.org/posts/bio/</link>
-      <pubDate>Fri, 07 Oct 2022 23:22:44 -0700</pubDate>
+      <title>STLKER</title>
+      <link>/projects/stlker/</link>
+      <pubDate>Sat, 08 Oct 2022 12:57:06 -0700</pubDate>
       
-      <guid>http://example.org/posts/bio/</guid>
-      <description>Hi my name is Furkan Ercevik. I am a 2nd year Computer Science B.S. student at UCSC. Welcome to my website</description>
+      <guid>/projects/stlker/</guid>
+      <description>STLKER STLKER is a stock tracking application that utilizes RESTful and gRPC microservices to serve content neatly in the command line via curl and grpcurl
+About This project is mostly made in Golang using the Gorilla Mux and GORM frameworks. It also implements several other features that are common in many webservices today. Moreover, this project was completed in order to develop a more complete understanding of microservice architecture, as well as to create something that can be used directly from the command line without much parsing.</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/</guid>
+      <description>Hi my name is Furkan Ercevik, and I am a 2nd year Computer Science B.S. student at UCSC. I am currently taking CSE 101 (Data Structures and Algorithms) and CSE 120 (Computer Architecture).
+I am experienced in Golang, Python, C/C++, JAVA, Docker, CI/CD, HTML/CSS, gRPC, REST, AWS EC2, ECR, and CloudFormation. I have also worked with the Gorilla Mux and GORM frameworks in Golang, and Flask and Pycord in Python.</description>
+    </item>
+    
+    
+    <item>
+      <title>Projects</title>
+      <link>/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/</guid>
+      <description>STLKER - a stock tracking application Tools gRPC, REST, Gorilla Mux, GORM, Golang, PostgreSQL, Redis, OpenApi/Swagger, Docker, AWS, GitHub
+Resources GitHub link
+Site link
+Wave - a CLI application to load test REST-ful APIs Tools Golang, Cobra, Concurrency, YAML file parsing, Docker, En/Decryption, GitHub
+Links GitHub link VPath - pathfinding visualizing program Tools Python, Pygame, GitHub
+Links GitHub link Sudoku-Solver - sudoku game and solver with algorithmic visualization Tools Python, Pygame, GitHub</description>
     </item>
     
   </channel>

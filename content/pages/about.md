@@ -15,4 +15,6 @@ I have developed several personal projects that are listed here as well as some 
 
 Currently I am interested in programming microservices and deploying them to cloud services as well as developing new Machine Learning applications using TensorFlow in Python.
 
+**[My Resume](https://drive.google.com/file/d/17_XP3bkyt0YsyM62RNoVazAgmlsSgYiG/view?usp=sharing)**
+
 

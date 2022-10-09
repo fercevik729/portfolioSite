@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Furkan Ercevik</title>
-    <link>/posts/</link>
-    <description>Recent content in Posts on Furkan Ercevik</description>
+    <title>swagger on Furkan Ercevik</title>
+    <link>/tags/swagger/</link>
+    <description>Recent content in swagger on Furkan Ercevik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Oct 2022 12:57:06 -0700</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Oct 2022 12:57:06 -0700</lastBuildDate><atom:link href="/tags/swagger/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>STLKER</title>
       <link>/projects/stlker/</link>
