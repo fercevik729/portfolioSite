@@ -62,12 +62,12 @@ About This project is mostly made in Golang using the Gorilla Mux and GORM frame
 About This project is mostly made in Golang using the Gorilla Mux and GORM frameworks. It also implements several other features that are common in many webservices today. Moreover, this project was completed in order to develop a more complete understanding of microservice architecture, as well as to create something that can be used directly from the command line without much parsing." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/projects/stlker/" />
-<meta property="og:image" content="/img/stlker-cli.jpeg" /><meta property="article:section" content="posts" />
+<meta property="og:image" content="/img/stlker-portfolio.jpeg" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-10-08T12:57:06-07:00" />
 <meta property="article:modified_time" content="2022-10-08T12:57:06-07:00" />
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="/img/stlker-cli.jpeg" />
+<meta name="twitter:image" content="/img/stlker-portfolio.jpeg" />
 <meta name="twitter:title" content="STLKER"/>
 <meta name="twitter:description" content="STLKER STLKER is a stock tracking application that utilizes RESTful and gRPC microservices to serve content neatly in the command line via curl and grpcurl
 About This project is mostly made in Golang using the Gorilla Mux and GORM frameworks. It also implements several other features that are common in many webservices today. Moreover, this project was completed in order to develop a more complete understanding of microservice architecture, as well as to create something that can be used directly from the command line without much parsing."/>
@@ -106,7 +106,7 @@ About This project is mostly made in Golang using the Gorilla Mux and GORM frame
   "articleBody": "STLKER STLKER is a stock tracking application that utilizes RESTful and gRPC microservices to serve content neatly in the command line via curl and grpcurl\nAbout This project is mostly made in Golang using the Gorilla Mux and GORM frameworks. It also implements several other features that are common in many webservices today. Moreover, this project was completed in order to develop a more complete understanding of microservice architecture, as well as to create something that can be used directly from the command line without much parsing.\nStructure The application consists of 4 separate services that were eventually all linked as Docker containers with docker compose.\ngRPC The gRPC service was developed using protocol buffers and Golang. It supports bidirectional streaming as well as typical unary services. However, bidirectional streaming is difficult if not impossible to implement with current frameworks for REST. So in order to access the streaming service the user must utilize grpcurl:\ngrpcurl --plaintext -msg-template -d @ localhost:9090 Watcher/SubscribeTicker This will open a “streaming session” from which users will send requests of the following format and receive updated financial information.\n{\"Ticker\": \"MSFT\", \"Destination\": \"EUR\"} Users can also directly request the unary service:\ngrpcurl --plaintext -msg-template -d '{\"Ticker\": \"MSFT\", \"Destination\":\"USD\"}' localhost:9090 Watcher/GetInfo and\ngrpcurl --plaintext -msg-template -d '{\"Ticker\": \"MSFT\", \"Destination\":\"USD\"}' localhost:9090 Watcher/MoreInfo This microservice forwards these requests in an appropriate format to a 3rd party API–Alpha Vantage–from which it receives the information, processes it, and sends it to the caller.\nControl The control service is the RESTful API service that most requests will be sent to. It will then send some of these to the gRPC service and return the desired response.\nThis microservice is also responsible for caching some of the requests in a Redis cache to improve latency and minimize the number of requests to AV’s API. Additionally, it allows users to create accounts, log themselves in via JWT authentication, create, update, delete and view portfolios of their own. This additional data is persisted in a PostgreSQL database, where any sensitive data is encrypted using the standard crypto package.\nIn addition, this application implements various middlewares and serves documentation at the /docs endpoint for more information about request and response format\nDocker In order to dockerize the application I had to create a docker-compose.yml file with containers for the gRPC, control, Redis, and PostgreSQL services. For the gRPC and control services I had to build and publish custom images so that I could use them later when I deployed my app to AWS’s ECS and CloudFormation.\nDisclaimer The financial data that this application provides is often late and should not be used to make real world decisions on. For more information please view the github link of this project here.\n",
   "wordCount" : "454",
   "inLanguage": "en",
-  "image":"/img/stlker-cli.jpeg","datePublished": "2022-10-08T12:57:06-07:00",
+  "image":"/img/stlker-portfolio.jpeg","datePublished": "2022-10-08T12:57:06-07:00",
   "dateModified": "2022-10-08T12:57:06-07:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
@@ -194,8 +194,8 @@ About This project is mostly made in Golang using the Gorilla Mux and GORM frame
 
 </div>
   </header> 
-<figure class="entry-cover"><a href="/img/stlker-cli.jpeg" target="_blank"
-            rel="noopener noreferrer"><img loading="lazy" src="/img/stlker-cli.jpeg" alt="STLKER"></a>
+<figure class="entry-cover"><a href="/img/stlker-portfolio.jpeg" target="_blank"
+            rel="noopener noreferrer"><img loading="lazy" src="/img/stlker-portfolio.jpeg" alt="STLKER"></a>
         <p>STLKER CLI output</p>
 </figure>
   <div class="post-content"><h1 id="stlker">STLKER<a hidden class="anchor" aria-hidden="true" href="#stlker">#</a></h1>

@@ -4,7 +4,7 @@ date: 2022-10-08T12:57:06-07:00
 draft: false
 url: "/projects/stlker"
 cover:
-    image: /img/stlker-cli.jpeg
+    image: /img/stlker-portfolio.jpeg
     alt: 'STLKER'
     caption: 'STLKER CLI output'
 tags: ["golang", "docker", "grpc", "rest", "aws", "swagger", "finance"]
