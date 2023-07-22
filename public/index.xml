@@ -33,12 +33,12 @@ I am experienced in Golang, Rust, Python, C/C++, Haskell, JAVA, Docker, CI/CD, g
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/projects/</guid>
-      <description>STLKER - a stock tracking application Tools gRPC, REST, Gorilla Mux, GORM, Golang, PostgreSQL, Redis, OpenApi/Swagger, Docker, AWS, GitHub
-Resources GitHub link
-Site link
+      <description>nazar - an intrusion detection system Tools Rust, tokio, pnet, Computer Networking, Packet Parsing, Computer Security, SQL
+Links GitHub link STLKER - a stock tracking application Tools gRPC, REST, Gorilla Mux, GORM, Golang, PostgreSQL, Redis, OpenApi/Swagger, Docker, AWS, GitHub
+Links GitHub link
+Article
 Wave - a CLI application to load test REST-ful APIs Tools Golang, Cobra, Concurrency, YAML file parsing, Docker, En/Decryption, GitHub
-Links GitHub link VPath - pathfinding visualizing program Tools Python, Pygame, GitHub
-Links GitHub link Sudoku-Solver - sudoku game and solver with algorithmic visualization Tools Python, Pygame, GitHub</description>
+Links GitHub link VPath - pathfinding visualizing program Tools Python, Pygame, GitHub</description>
     </item>
     
   </channel>
