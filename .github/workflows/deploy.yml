@@ -31,4 +31,4 @@ jobs:
 
       - name: Sync files to S3 bucket
         run: |
-          aws s3 sync ./public s3://fercevik.com --acl public-read
+          aws s3 sync ./public s3://fercevik.com
