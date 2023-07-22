@@ -19,7 +19,7 @@ jobs:
           sudo dpkg -i /tmp/hugo.deb
 
       - name: Build Hugo site
-        run: hugo server -D --minify
+        run: hugo --buildDrafts
 
       - name: Install AWS CLI
         run: |
