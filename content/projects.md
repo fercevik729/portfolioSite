@@ -7,15 +7,23 @@ ShowBreadCrumbs: false
 ShowReadingTime: false
 ---
 
+## nazar - an intrusion detection system
+***
+### Tools
+Rust, tokio, pnet, Computer Networking, Packet Parsing, Computer Security, SQL
+
+### Links
+* **[GitHub link](https://github.com/fercevik729/nazar)**
+
 ## STLKER - a stock tracking application
 ***
 ### Tools
 gRPC, REST, Gorilla Mux, GORM, Golang, PostgreSQL, Redis, OpenApi/Swagger, Docker, AWS, GitHub
 
-### Resources
+### Links
 * **[GitHub link](https://github.com/fercevik729/stlker)**  
 
-* **[Site link](/projects/stlker)**
+* **[Article](/projects/stlker)**
 
 ## Wave - a CLI application to load test REST-ful APIs
 ***
