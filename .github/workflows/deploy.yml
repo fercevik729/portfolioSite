@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -19,14 +19,7 @@ jobs:
           sudo dpkg -i /tmp/hugo.deb
 
       - name: Build Hugo site
-        run: hugo --minify
-
-  deploy:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+        run: hugo server -D --minify
 
       - name: Install AWS CLI
         run: |
