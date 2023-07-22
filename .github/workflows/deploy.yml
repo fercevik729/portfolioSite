@@ -12,15 +12,6 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-
-      - name: Install Hugo
-        run: |
-          wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.88.1/hugo_extended_0.88.1_Linux-64bit.deb
-          sudo dpkg -i /tmp/hugo.deb
-
-      - name: Build Hugo site
-        run: hugo --buildDrafts
-
       - name: Install AWS CLI
         run: |
           sudo apt-get update
